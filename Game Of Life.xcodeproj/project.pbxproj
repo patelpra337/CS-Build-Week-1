@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB00D21D25393C890001691A /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB00D21C25393C890001691A /* GameCell.swift */; };
+		AB00D22025394B010001691A /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB00D21F25394B010001691A /* GameState.swift */; };
 		AB72F75A2537D8D70032C8D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB72F7592537D8D70032C8D7 /* AppDelegate.swift */; };
 		AB72F75C2537D8D70032C8D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB72F75B2537D8D70032C8D7 /* SceneDelegate.swift */; };
 		AB72F75E2537D8D70032C8D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB72F75D2537D8D70032C8D7 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB00D21C25393C890001691A /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
+		AB00D21F25394B010001691A /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 		AB72F7562537D8D70032C8D7 /* Game Of Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game Of Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB72F7592537D8D70032C8D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB72F75B2537D8D70032C8D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 		AB72F76F2537E34C0032C8D7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AB00D21C25393C890001691A /* GameCell.swift */,
+				AB00D21F25394B010001691A /* GameState.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -171,7 +177,9 @@
 			files = (
 				AB72F75E2537D8D70032C8D7 /* ViewController.swift in Sources */,
 				AB72F75A2537D8D70032C8D7 /* AppDelegate.swift in Sources */,
+				AB00D22025394B010001691A /* GameState.swift in Sources */,
 				AB72F75C2537D8D70032C8D7 /* SceneDelegate.swift in Sources */,
+				AB00D21D25393C890001691A /* GameCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
