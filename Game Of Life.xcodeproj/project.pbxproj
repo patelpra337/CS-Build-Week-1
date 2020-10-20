@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		AB00D21D25393C890001691A /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB00D21C25393C890001691A /* GameCell.swift */; };
 		AB00D22025394B010001691A /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB00D21F25394B010001691A /* GameState.swift */; };
+		AB00D223253E67B50001691A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB00D222253E67B50001691A /* GameViewController.swift */; };
 		AB72F75A2537D8D70032C8D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB72F7592537D8D70032C8D7 /* AppDelegate.swift */; };
 		AB72F75C2537D8D70032C8D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB72F75B2537D8D70032C8D7 /* SceneDelegate.swift */; };
-		AB72F75E2537D8D70032C8D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB72F75D2537D8D70032C8D7 /* ViewController.swift */; };
 		AB72F7612537D8D70032C8D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB72F75F2537D8D70032C8D7 /* Main.storyboard */; };
 		AB72F7632537D8D70032C8D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB72F7622537D8D70032C8D7 /* Assets.xcassets */; };
 		AB72F7662537D8D70032C8D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB72F7642537D8D70032C8D7 /* LaunchScreen.storyboard */; };
@@ -20,10 +20,10 @@
 /* Begin PBXFileReference section */
 		AB00D21C25393C890001691A /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
 		AB00D21F25394B010001691A /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		AB00D222253E67B50001691A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		AB72F7562537D8D70032C8D7 /* Game Of Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game Of Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB72F7592537D8D70032C8D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB72F75B2537D8D70032C8D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB72F75D2537D8D70032C8D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB72F7602537D8D70032C8D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB72F7622537D8D70032C8D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB72F7652537D8D70032C8D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 		AB72F7702537E3550032C8D7 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				AB72F75D2537D8D70032C8D7 /* ViewController.swift */,
+				AB00D222253E67B50001691A /* GameViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -175,10 +175,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB72F75E2537D8D70032C8D7 /* ViewController.swift in Sources */,
 				AB72F75A2537D8D70032C8D7 /* AppDelegate.swift in Sources */,
 				AB00D22025394B010001691A /* GameState.swift in Sources */,
 				AB72F75C2537D8D70032C8D7 /* SceneDelegate.swift in Sources */,
+				AB00D223253E67B50001691A /* GameViewController.swift in Sources */,
 				AB00D21D25393C890001691A /* GameCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

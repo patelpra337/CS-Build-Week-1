@@ -7,19 +7,25 @@
 
 import Foundation
 
-enum State {
+public enum State {
     case alive
     case dead
-    case neverLived
 }
 
-class Cell {
-    let x: Int, y: Int
+struct Cell {
+    let x: Int
+    let y: Int
     var state: State
     
-    init(x: Int, y: Int) {
-        self.x = x
-        self.y = y
-        state = .neverLived
+    func isNeighbor(to cell: Cell) -> Bool {
+        let xDelta = abs(self.x - cell.x)
+        let yDelta = abs(self.y - cell.y)
+        
+        switch (xDelta, yDelta) {
+        case (1, 1), (0, 1), (1, 0):
+            return true
+        default:
+            return false
+        }
     }
 }
