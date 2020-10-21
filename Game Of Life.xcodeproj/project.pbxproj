@@ -10,6 +10,7 @@
 		AB00D21D25393C890001691A /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB00D21C25393C890001691A /* GameCell.swift */; };
 		AB00D22025394B010001691A /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB00D21F25394B010001691A /* GameState.swift */; };
 		AB00D223253E67B50001691A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB00D222253E67B50001691A /* GameViewController.swift */; };
+		AB00D22F253FC75B0001691A /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB00D22E253FC75B0001691A /* About.storyboard */; };
 		AB72F75A2537D8D70032C8D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB72F7592537D8D70032C8D7 /* AppDelegate.swift */; };
 		AB72F75C2537D8D70032C8D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB72F75B2537D8D70032C8D7 /* SceneDelegate.swift */; };
 		AB72F7612537D8D70032C8D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB72F75F2537D8D70032C8D7 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		AB00D21C25393C890001691A /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
 		AB00D21F25394B010001691A /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 		AB00D222253E67B50001691A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AB00D22E253FC75B0001691A /* About.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = About.storyboard; sourceTree = "<group>"; };
 		AB72F7562537D8D70032C8D7 /* Game Of Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game Of Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB72F7592537D8D70032C8D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB72F75B2537D8D70032C8D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				AB72F75F2537D8D70032C8D7 /* Main.storyboard */,
+				AB00D22E253FC75B0001691A /* About.storyboard */,
 				AB72F7642537D8D70032C8D7 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -164,6 +167,7 @@
 			files = (
 				AB72F7662537D8D70032C8D7 /* LaunchScreen.storyboard in Resources */,
 				AB72F7632537D8D70032C8D7 /* Assets.xcassets in Resources */,
+				AB00D22F253FC75B0001691A /* About.storyboard in Resources */,
 				AB72F7612537D8D70032C8D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

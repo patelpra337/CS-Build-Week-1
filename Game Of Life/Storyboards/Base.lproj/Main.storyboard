@@ -121,7 +121,7 @@
                         <barButtonItem key="backBarButtonItem" title="Game of Life" id="ek9-ef-YMs"/>
                         <barButtonItem key="rightBarButtonItem" title="Item" image="info.circle" catalog="system" id="vP3-8S-InA">
                             <connections>
-                                <segue destination="mFq-Su-pyS" kind="show" id="Ewu-QK-HAZ"/>
+                                <segue destination="iit-Ja-0hb" kind="show" identifier="aboutSegue" id="lgm-mq-TTv"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -130,21 +130,15 @@
             </objects>
             <point key="canvasLocation" x="892" y="138"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="qXx-hc-OEj">
+        <!--About-->
+        <scene sceneID="9oB-Ir-9bD">
             <objects>
-                <viewController id="mFq-Su-pyS" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3OA-0e-zuh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="gUh-fc-G6d"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="hkB-Fv-SlA"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Woe-Xf-CAL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="About" id="iit-Ja-0hb" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="RfJ-mZ-cUG"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f8b-iW-Q1J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1711" y="138"/>
+            <point key="canvasLocation" x="1498" y="138"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="f8w-jf-dUV">
