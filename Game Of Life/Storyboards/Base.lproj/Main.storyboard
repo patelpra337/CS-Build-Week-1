@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QGW-XQ-cBe">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -24,18 +24,30 @@
                                 <items>
                                     <barButtonItem image="playpause.fill" catalog="system" id="FLT-iG-Wd9">
                                         <color key="tintColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="playPauseToggle:" destination="BYZ-38-t0r" id="dqs-Th-TuH"/>
+                                        </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="kcf-LT-MkR"/>
                                     <barButtonItem image="forward.fill" catalog="system" id="XH7-ID-IPD">
                                         <color key="tintColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="advanceOneStep:" destination="BYZ-38-t0r" id="c71-Yr-tG5"/>
+                                        </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="DUS-Au-Jqo"/>
                                     <barButtonItem title="Reset" image="stop.fill" catalog="system" id="9Uk-jo-ZaW">
                                         <color key="tintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="stopButton:" destination="BYZ-38-t0r" id="mNl-Bp-2xk"/>
+                                        </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="vgW-Ng-VMB"/>
                                     <barButtonItem image="restart" catalog="system" id="ZbX-Fh-Hq8">
                                         <color key="tintColor" systemColor="systemGreenColor"/>
+                                        <connections>
+                                            <action selector="clearButton:" destination="BYZ-38-t0r" id="HiT-uz-Ssa"/>
+                                        </connections>
                                     </barButtonItem>
                                 </items>
                             </toolbar>
@@ -125,6 +137,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="gameView" destination="F1T-iG-Nks" id="vzA-va-sJO"/>
+                        <outlet property="generationLabel" destination="a3D-T5-8fL" id="TDX-gt-Dbt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

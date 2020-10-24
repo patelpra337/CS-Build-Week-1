@@ -12,12 +12,12 @@ public enum State {
     case dead
 }
 
-struct Cell {
+struct GamerCell {
     let x: Int
     let y: Int
     var state: State
     
-    func isNeighbor(to cell: Cell) -> Bool {
+    func isNeighbor(to cell: GamerCell) -> Bool {
         let xDelta = abs(self.x - cell.x)
         let yDelta = abs(self.y - cell.y)
         
